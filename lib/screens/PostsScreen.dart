@@ -2,8 +2,6 @@ import 'package:bloc_test/bloc/allpostsBloc.dart';
 import 'package:bloc_test/modals/allpostsmodal.dart';
 import 'package:bloc_test/screens/profile.dart';
 import 'package:flutter/material.dart';
-import 'package:grouped_list/grouped_list.dart';
-import "package:collection/collection.dart";
 
 class PostsScreen extends StatefulWidget {
   @override

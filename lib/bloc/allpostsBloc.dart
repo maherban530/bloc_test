@@ -6,12 +6,9 @@ class AllPostsBloc {
   final _allPostsController = StreamController<List<AllPosts>>();
 
   Stream<List<AllPosts>> get allPostStream => _allPostsController.stream;
-  // Sink<List<AllPosts>> get allPostSink => _allPostsController.sink;
-  // var _posts = <AllPosts>[];
   List<AllPosts> data;
 
   AllPostsBloc() {
-    print("hello");
     posts();
   }
 

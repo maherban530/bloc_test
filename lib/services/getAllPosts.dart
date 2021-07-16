@@ -1,25 +1,3 @@
-// import 'package:bloc_test/Credentials.dart';
-// import 'package:bloc_test/modals/allpostsmodal.dart';
-// import 'package:bloc_test/modals/postDetialModal.dart';
-// import 'package:http/http.dart' as http;
-
-// Future<List<AllPosts>> getAllPosts() async {
-//   // final response = await http.get(Credentials.baseUrl);
-//   final allAnimationItems = <AllPosts>[
-//     AllPosts(userId: 1, id: 1, title: 'Appbar Animation', body: 'rrrr'),
-//     AllPosts(userId: 1, id: 2, title: 'Animation', body: 'rr'),
-//   ];
-
-//   // print("data show: ${response.body}");
-//   return allPostsFromJson(allAnimationItems.length.toString());
-// }
-
-// // Future<PostDetail> postDetailre(id) async {
-// //   final response = await http.get("${Credentials.baseUrl}/$id");
-// //   print(response.body);
-// //   return postDetailFromJson(response.body);
-// // }
-
 import 'package:bloc_test/modals/allpostsmodal.dart';
 
 class ItemData {
